@@ -1,0 +1,310 @@
+body{
+    background-size: auto;
+    height: 120vh;
+    background-size: cover;
+    background: center no-repeat magenta
+    url("https://wallpapercart.com/wp-content/uploads/2019/09/wallpapers-dota-2.png");
+    margin: 0 auto;  
+    background-attachment: fixed;
+    width: 100%;
+    height: 50em;
+    margin: 0;
+    display:flex;
+    align-items: center;
+    flex-direction:inline;
+    justify-content: center;
+    flex-wrap: wrap;
+    backdrop-filter: brightness(75%);
+}
+
+header{
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;  
+    text-align: center;  
+}
+.banner{
+    text-align: center;
+}
+
+.banner h2{
+    color: #ffba08;
+    line-height: 1;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.5em;
+    text-align: center;
+    margin: 100px;
+}
+
+.banner h1{
+    margin: 100px;
+    color: #d00000;
+    line-height: 1.2;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 6.5em;
+    text-align: center; 
+}
+
+button{
+    background: #b7094c;
+    color: #ccff33;
+    border: 2px solid;
+    padding: 0.3em;
+    font-size: 1.75em;
+    transition: color 0.25s, transform 0.25s, box-shadow 0.25s, border-color 0.25s, cursor 0.25s;
+    font-family: 'Cinzel', serif;
+}
+
+button:hover {
+    background: #ccff33;
+    border-color: #b7094c;
+    border-radius: 50px;
+    color: #b7094c;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 #b7094c, 0 17px 50px 0 rgba(0,145,173,0.19);
+    transform: translateY(-0.3em);
+}
+
+#Descripcion {
+    width: 100%;
+    height: 35em;
+    background-color: #70e000;
+    border-top: 12px solid #7400b8;
+    display:flex;
+    align-items: center;
+    flex-direction:inline;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#Descripcion div{
+    margin-bottom: 0.9em; 
+    justify-content: center;
+    text-align:center;
+    flex-basis: 300px;
+}
+
+#Descripcion h1{
+    font-family: 'Kaushan Script', cursive;
+    color:#b429f9;
+    font-size: 2em;
+}
+
+#Descripcion h2{
+    font-family: 'Dancing Script', cursive;
+    color:#2b2d42;
+    font-size: 2.5em;
+}
+
+#Descripcion p{
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: 'Alegreya', serif;
+    color: #081c15;
+}
+
+.image img{
+    border: 4px solid;
+    border-color: #ef476f;
+    height: 15em;
+    transition: all 0.35s ease;
+}
+
+.image img:hover{
+    border-color: #ccff33;
+    color: #1b4332;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 #ccff33, 0 17px 50px 0 rgba(0,145,173,0.19);
+    transform: translateY(-0.3em);
+    transform: scale(1.18);
+    opacity: 0.9;
+}
+
+#Productos img{
+    border: 4px solid;
+    border-color: #ef476f;
+    height: 15em;
+    transition: all 0.35s ease;
+}
+
+#Productos img:hover{
+    border-color: #ccff33;
+    color: #1b4332;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 #ccff33, 0 17px 50px 0 rgba(0,145,173,0.19);
+    transform: translateY(-0.3em);
+    transform: scale(1.18);
+    opacity: 0.9;
+}
+
+#Productos h2{
+    font-family: 'Dancing Script', cursive;
+}
+
+#Productos p{
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: 'Alegreya', serif;
+    color: #081c15;
+}
+
+p{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: white;
+}
+
+#Productos{
+    width: 100%;
+    height: 31em;
+    background-color: #ff9e00;
+    border-top: 12px solid #7400b8;
+    display:flex;
+    align-items: center;
+    flex-direction:inline;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#Productos div{
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    flex-basis: 300px;
+}
+
+#Productos h2{
+    color: #38b000;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+#Productos h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 34px;
+    color: #240046;
+}
+
+#Información{
+    border-top: 12px solid #7400b8;
+    width: 100%;
+    height: 28em;
+    background-color: #70e000;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#Información div{
+    margin-left: 8em;
+    margin-top: 2.5em;
+}
+
+#Información h2{
+    color: #240046;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+
+#Información p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    text-align: left;
+}
+
+#Información a{
+    color: #ef476f;
+}
+
+#Información a:hover{
+    color: #38b000;
+    box-shadow: 0 12px 16px 0 #b7094c, 0 17px 50px 0 rgba(0,145,173,0.19);
+}
+
+footer{
+    border-top: 12px solid #7400b8 ;
+    width: 100%;
+    height: 3.5em;
+    background: #ff9e00;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
+@media (max-width:1000px){
+    header{
+        height: 100vh;
+        font-size: 0.8em;
+    }
+    #Descripcion{
+        width: 100%;
+        height: 25em;
+        font-size: 0.8em;
+        padding-bottom: 7em;
+    }
+    #Productos{
+        width: 100%;
+        height: 50em;
+        font-size: 0.8em;
+        padding-bottom: 7em;
+    }
+    #Información{
+        width: 100%;
+        height: 28em;
+        font-size: 0.8em;
+        padding-bottom: 7em;
+    }
+}
+
+@media (max-width:800px){
+    header{
+        height: 100vh;
+        font-size: 0.6em;
+    }
+    #Descripcion{
+        width: 100%;
+        height: 40em;
+        font-size: 0.6em;
+        padding-bottom: 7em;
+    }
+    #Productos{
+        width: 100%;
+        height: 140em;
+        font-size: 0.6em;
+        padding-bottom: 7em;
+    }
+    #Información{
+        width: 100%;
+        height: 38em;
+        font-size: 0.6em;
+        padding-bottom: 7em;
+    }
+}
+
+@media (max-width:600px){
+    header{
+        height: 100vh;
+        font-size: 0.5em;
+    }
+    #Descripcion{
+        width: 100%;
+        height: 38em;
+        font-size: 0.5em;
+        padding-bottom: 7em;
+    }
+    #Productos{
+        width: 100%;
+        height: 140em;
+        font-size: 0.5em;
+        padding-bottom: 7em;
+    }
+    #Información{
+        width: 100%;
+        height: 38em;
+        font-size: 0.5em;
+        padding-bottom: 7em;
+    }
+    footer{
+        font-size: 0.8em;
+    }
+}
+
